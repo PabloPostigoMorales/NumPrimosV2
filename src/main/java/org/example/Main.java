@@ -14,9 +14,9 @@ public class Main {
         Integer fin = sc.nextInt();
         var p = PrimoUtilities.primoIntervalo(inicial,fin);
         //System.out.println(PrimoUtilities.primoIntervalo(1,10));
-        p.forEach(
-                (entero) -> {System.out.println(entero);}
-        );
+    //    p.forEach(
+    //            (entero) -> {System.out.println(entero);}
+    //    );
         Iterator<Integer> it = p.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
